@@ -16,18 +16,20 @@ If you've ever spent hours debugging **weird JavaScript behavior**, this repo is
 ---
 
 ## 🧠 Tricky JavaScript Questions
+<details>
 
-- 1- JS types
+<summary>1- JS types</summary>
     
-    ```jsx
-    console.log(typeof NaN);
-    console.log(typeof undefined);
-    console.log(typeof null);
-    console.log(typeof 1);
-    console.log(typeof typeof "1");
-    console.log(typeof typeof 1);
-    console.log(typeof Number);
-    ```
+  ```js
+        console.log(typeof NaN);
+        console.log(typeof undefined);
+        console.log(typeof null);
+        console.log(typeof 1);
+        console.log(typeof typeof "1");
+        console.log(typeof typeof 1);
+        console.log(typeof Number);
+  ```
+</details>
     
 - 2- Temporal Dead Zone (TDZ) for let variables
     
